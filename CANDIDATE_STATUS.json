@@ -1,0 +1,16 @@
+{
+  "cloudflare_change": "NO",
+  "created_utc": "20260523_220945Z",
+  "current_public_candidate_status": "READY_FOR_LOCAL_REVIEW",
+  "email_sent": "NO",
+  "external_action_done": "NO",
+  "github_api_call": "NO",
+  "github_push": "NO",
+  "no_admission_no_execution": true,
+  "owner_approval_after_allow_required": true,
+  "public_package_language": "EN_ONLY",
+  "schema": "ai-admissibility-public-package-candidate-status-v1",
+  "server_change": "NO",
+  "signed_allow_is_not_execution": true,
+  "site_change": "NO"
+}

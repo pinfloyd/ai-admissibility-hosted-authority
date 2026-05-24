@@ -1,0 +1,18 @@
+name: admission-gated-workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  admission-gated-job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare resolved intent
+        run: echo '{"schema":"intent-v1","action":"demo"}' > intent.json
+      - name: AI Admissibility gate
+        uses: ./github-actions-admission-gate
+        with:
+          admission-url: ${{ secrets.AI_ADMISSIBILITY_ADMISSION_URL }}
+          policy-id: example-policy
+          intent-file: intent.json

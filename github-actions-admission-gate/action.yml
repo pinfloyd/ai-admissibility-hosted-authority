@@ -1,0 +1,21 @@
+name: "AI Admissibility External Admission Gate"
+description: "Fail-closed external admission gate for high-impact CI/CD execution."
+inputs:
+  admission-url:
+    description: "External admission authority URL"
+    required: true
+  policy-id:
+    description: "Policy identifier"
+    required: true
+  intent-file:
+    description: "Path to resolved intent JSON"
+    required: true
+runs:
+  using: "composite"
+  steps:
+    - name: Fail closed placeholder
+      shell: bash
+      run: |
+        echo "AI Admissibility gate candidate."
+        echo "This placeholder fails closed until a tested verifier is installed."
+        exit 1

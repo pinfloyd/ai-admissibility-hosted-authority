@@ -1,0 +1,11 @@
+{
+  "claim_hits": [],
+  "disclosure_hits": [],
+  "english_hits": [],
+  "english_only_pass": true,
+  "forbidden_claim_scan_pass": true,
+  "github_action_fail_closed_placeholder": true,
+  "private_disclosure_scan_pass": true,
+  "secret_hits": [],
+  "secret_scan_pass": true
+}
