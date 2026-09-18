@@ -1,17 +1,26 @@
-# SaaS Roadmap
+# Historical/reference roadmap
 
-Phase 1: One-click safe demo runner
+**Status: historical engineering roadmap. It is not the current public product plan.**
 
-Goal: demonstrate the admission chain without external execution.
+This repository preserves earlier Hosted Authority design work.
 
-Phase 2: GitHub Actions / CI/CD admission gate
+The current website and GitHub surfaces are showcase, documentation, proof, and demonstration surfaces. They do not provide public checkout, automatic credential issuance, or customer production runtime.
 
-Goal: make CI/CD the first product surface.
+Current public status:
 
-Phase 3: Tenant, API key, and admission record layer
+https://ai-admissibility.com/
 
-Goal: support isolated customer scopes and immutable admission records.
+## Earlier roadmap
 
-Phase 4: Hosted external authority package
+The earlier engineering sequence explored:
 
-Goal: provide a hosted admission authority with public key verification and fail-closed integration.
+1. one-click safe demo runner;
+2. GitHub Actions / CI/CD admission gate;
+3. tenant, API key, and admission record layer;
+4. hosted external authority package.
+
+These phases are retained as design history only.
+
+The current canonical installed boundary used for controlled public demonstration is `AI_BOUNDARY_RELEASE_V1`, surfaced through:
+
+https://ai-admissibility.com/canonical-pilot/
